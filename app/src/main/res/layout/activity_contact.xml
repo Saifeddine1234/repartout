@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="60sp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="40sp"
+            android:text="contact Support"
+            android:textColor="@color/colorO"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="37dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="50sp"
+                app:srcCompat="@drawable/contact_icon"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/telcontact"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="16dp"
+                app:fontFamily="casual" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="37dp"
+                android:layout_height="26dp"
+                android:layout_marginLeft="50sp"
+                app:srcCompat="@drawable/email_icon"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="16sp"
+                app:fontFamily="casual"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="287dp"
+            android:layout_height="404dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/styleedit"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:text="envoyer votre reclamation"
+                android:textColor="@color/colorO"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="148dp"
+                android:layout_height="23dp"
+                android:layout_margin="20sp"
+                android:layout_marginStart="48dp"
+                android:text="Nom"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/reg_name"
+                android:layout_width="218dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="20sp"
+                android:background="@drawable/styleedit"
+
+                android:gravity="center"
+                android:textColor="@color/color2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="5sp"
+                android:text="Message"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/msg"
+                android:layout_width="229dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="20sp"
+                android:background="@drawable/styleedit"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="maximum 200 lettres"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10sp"
+                android:textColor="@color/colorr"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/envoyer"
+                android:layout_width="168dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/stylebuttonmessage"
+                android:gravity="center"
+                android:text="Envoyer"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="16sp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbg"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        app:buttonGravity="center_vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="          Contact"
+        app:titleMarginStart="20dp"
+        app:titleTextColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/flesh"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:srcCompat="@drawable/flesh_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

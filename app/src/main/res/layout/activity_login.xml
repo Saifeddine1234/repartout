@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="186dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:transitionName="logo_image"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Connectez-vous à"
+        android:textColor="@color/colorbg"
+        android:textSize="30sp"
+        android:transitionName="logo_text"
+        app:fontFamily="@font/atma_semibold" />
+
+    <TextView
+        android:id="@+id/logo_name2"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        android:text=" RépareTOUT"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30sp"
+        android:transitionName="logo_text"
+        app:fontFamily="@font/atma_semibold" />
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="411dp"
+        android:layout_height="37dp"
+        android:text="se connecter pour continuer"
+        android:textColor="@color/colorT"
+        android:textSize="20sp"
+        app:fontFamily="casual" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_telephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="telephone">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/common_google_signin_btn_text_light_pressed" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="18dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/motdepasseLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mot de passe"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <Button
+            android:id="@+id/connexion"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorbg"
+            android:gravity="center"
+            android:text="Connexion"
+            android:textColor="@color/design_default_color_background" />
+
+        <TextView
+            android:id="@+id/pass_en"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="#00000000"
+            android:textSize="15sp"
+            android:elevation="0dp"
+            android:text="nouveau utilisateur ? inscrivez-vous"
+            android:textColor="@color/colorHeader" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "678396721011",
+    "firebase_url": "https://rparetout.firebaseio.com",
+    "project_id": "rparetout",
+    "storage_bucket": "rparetout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678396721011:android:ca7aec5a0dc5b13677f706",
+        "android_client_info": {
+          "package_name": "com.example.rparetout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678396721011-23jnodjccop3cmh7q2v77u3o4nuthqq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rparetout",
+            "certificate_hash": "f7374917e171043a599ac89c01004ae5bb8c7918"
+          }
+        },
+        {
+          "client_id": "678396721011-am0lb2rl5o1o16nttton1l3lvg0j6398.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-i9sDK8U2ezt6dW8A15Y3Bxs9ZRk2yHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678396721011-am0lb2rl5o1o16nttton1l3lvg0j6398.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

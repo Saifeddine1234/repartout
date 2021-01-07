@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="365dp"
+            android:layout_height="161dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/styleedit"
+            android:foregroundGravity="center"
+            android:padding="10sp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:foregroundGravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nomR"
+                    android:layout_width="245dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginLeft="56dp"
+                    android:text="TextView"
+                    android:textColor="@color/color3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/carter_one"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.045" />
+
+                <TextView
+                    android:id="@+id/motdepasseA"
+                    android:layout_width="118dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:text="Mot de passe"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/cherry_cream_soda"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.904" />
+
+                <TextView
+                    android:id="@+id/telephoneA2"
+                    android:layout_width="78dp"
+                    android:layout_height="29dp"
+                    android:layout_marginEnd="236dp"
+                    android:layout_marginRight="236dp"
+                    android:text="Type"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/cherry_cream_soda"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.717" />
+
+                <TextView
+                    android:id="@+id/telR"
+                    android:layout_width="162dp"
+                    android:layout_height="22dp"
+                    android:text="TextView"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.528" />
+
+                <TextView
+                    android:id="@+id/mdpR"
+                    android:layout_width="150dp"
+                    android:layout_height="26dp"
+                    android:text="TextView"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.944"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.85" />
+
+                <TextView
+                    android:id="@+id/telephoneA"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:text="Telephone"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/cherry_cream_soda"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.511" />
+
+                <TextView
+                    android:id="@+id/cinR"
+                    android:layout_width="162dp"
+                    android:layout_height="21dp"
+                    android:text="TextView"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.366" />
+
+                <TextView
+                    android:id="@+id/typeR"
+                    android:layout_width="162dp"
+                    android:layout_height="20dp"
+                    android:text="TextView"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.671" />
+
+                <TextView
+                    android:id="@+id/emailA"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="48dp"
+                    android:text="CIN"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="12sp"
+                    app:fontFamily="@font/cherry_cream_soda"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.356" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="40dp"
+                    android:layout_height="27dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.147"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.037"
+                    app:srcCompat="@drawable/reparateur" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

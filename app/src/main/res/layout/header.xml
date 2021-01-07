@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorHeader"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="103dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="10dp"
+        android:text="RépareTOUT"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp"
+        app:fontFamily="@font/fascinate" />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="35dp"
+        android:text="notre application à votre service"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:fontFamily="@font/aguafina_script" />
+</LinearLayout>

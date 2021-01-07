@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Demande">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="711dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginTop="66dp"
+            android:gravity="start|center_horizontal"
+            android:text="Remplir votre demande"
+            android:textColor="@color/colorHeader"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="474dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="114dp">
+
+                <LinearLayout
+                    android:layout_width="354dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="54dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tel_icon"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/T1"
+                        android:layout_width="205dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="TextView"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/I1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="60px"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/profil2_icon"
+                            tools:ignore="VectorDrawableCompat"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/T2"
+                            android:layout_width="199dp"
+                            android:layout_height="25dp"
+
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="TextView"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="330dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="40dp"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="Adresse"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="331dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/ee1"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:ems="10"
+
+                    android:inputType="textPersonName"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/T5"
+                    android:layout_width="308dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="40px"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Gouvernement"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/styleedit"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spgov"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_weight="1"
+                    android:text="Ville"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/styleedit"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spville"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="40px"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/T3"
+                    android:layout_width="152dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Description"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/styleedit"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="293dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/ee2"
+                    android:layout_width="282dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/suivant"
+                android:layout_width="158dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/stylebuttonsuivant"
+                android:gravity="center"
+                android:text="Suivant               >"
+                android:textColor="@color/color3"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbg"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        app:buttonGravity="center_vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="          Envoyer une demande"
+        app:titleTextColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/flesh"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:srcCompat="@drawable/flesh_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
